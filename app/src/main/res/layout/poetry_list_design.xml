@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgrey"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:id="@+id/textview_poetName"
+        android:text=" Mirza Galib"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:id="@+id/textview_poetryData"
+        android:text="ham ko ma.alūm hai jannat kī haqīqat lekin
+
+dil ke ḳhush rakhne ko 'ġhālib' ye ḳhayāl achchhā hai"/>
+
+    <TextView
+        android:id="@+id/textview_poetryDateandtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:minHeight="20dp"
+        android:padding="5dp"
+        android:text="10-apr-2021"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/update_btn"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/delete_btn"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
